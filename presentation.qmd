@@ -1,0 +1,14 @@
+---
+title: "Using Git and GitHub<br>with RStudio"
+author: "Federica Gazzelloni"
+date: 2026-02-27T18:00:00+08:00
+format:
+  revealjs: 
+    title-slide-attributes: 
+      style: "text-align: left; right: 10%; font-size: 0.9em"
+      class: title-left-author
+    logo: images/logo-rnvsu-rladiesRome.png
+    css: styles.css
+---
+
+

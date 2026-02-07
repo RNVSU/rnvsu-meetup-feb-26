@@ -1,16 +1,13 @@
 ---
 title: "Using Git and GitHub<br>with RStudio"
-author: "Federica Gazzelloni"
-date: 2026-02-27T18:00:00+08:00
+subtitle: "**Federica Gazzelloni**"
+author: "**Zoom<br>27 Feb 2026 Fri 6PM (UTC +8)**"
 format:
   revealjs: 
+    theme: [default, styles.scss]
     title-slide-attributes: 
-      style: "text-align: left; right: 10%; font-size: 0.9em"
-      class: title-left-author
       data-background-image: "images/banganhill-fgazzelloni.png"
-      data-background-size: 100%
-    logo: images/logo-rnvsu-rladiesRome.png
-    css: styles.css
+    logo: images/logo.png
 ---
 
 

@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+$presentation-title-slide-text-align: left;
+
+/*-- scss:rules --*/
+.reveal section.title-slide .title-slide-content {
+  transform: translateX(30%);
+}
+
+.reveal .slide-logo {
+  height: 130px !important;
+  width: 450px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+.quarto-title-author-name {
+  font-size: 48px !important;
+}

@@ -7,6 +7,8 @@ format:
     title-slide-attributes: 
       style: "text-align: left; right: 10%; font-size: 0.9em"
       class: title-left-author
+      data-background-image: "images/banganhill-fgazzelloni.png"
+      data-background-size: 100%
     logo: images/logo-rnvsu-rladiesRome.png
     css: styles.css
 ---

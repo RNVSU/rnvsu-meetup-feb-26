@@ -6,12 +6,14 @@
 <script src="preliminaries_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="preliminaries_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="preliminaries_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="preliminaries_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="preliminaries_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="preliminaries_files/libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="preliminaries_files/libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
   <meta name="author" content="Federica Gazzelloni">
   <meta name="dcterms.date" content="2026-02-27">
-  <title>Using Git and GitHub in RStudio</title>
+  <title>RNVSU and R-Ladies Rome presents:</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,7 +32,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="preliminaries_files/libs/revealjs/dist/theme/quarto-39b3854f54069f73298baf6fc16d2f5e.css">
+  <link rel="stylesheet" href="preliminaries_files/libs/revealjs/dist/theme/quarto-7ca66cbb9822a5abad0a4ba8ed10fe90.css">
   <link href="preliminaries_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="preliminaries_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="preliminaries_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,13 +129,14 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Using Git and GitHub<br>in RStudio</h1>
+<section id="title-slide" data-background-image="/images/bg.png" data-background-position="600px 370px" data-background-size="40%" class="quarto-title-block center">
+  <h1 class="title"><a href="https://www.meetup.com/r-nvsu/">RNVSU</a> and <a href="https://www.meetup.com/rladies-rome/">R-Ladies Rome</a> presents:</h1>
+  <p class="subtitle">Using <a href="https://git-scm.com">Git</a> and <a href="https://github.com">GitHub</a><br>in <a href="https://posit.co/download/rstudio-desktop/">RStudio</a></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Federica Gazzelloni 
+<a href="https://federicagazzelloni.com">Federica Gazzelloni</a> 
 </div>
 </div>
 </div>
@@ -144,43 +147,66 @@ Federica Gazzelloni
 <h2>📢 Zoom Meetup Reminders</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="recording-notice">🎥 Recording Notice</h3>
+<p><br></p>
+<h4 id="recording-notice">🎥 Recording Notice</h4>
 <p>This meetup will be recorded for documentation and learning purposes.</p>
-<h3 id="inclusive-learning-space">🤝 Inclusive Learning Space</h3>
+<h4 id="inclusive-learning-space">🤝 Inclusive Learning Space</h4>
 <p>✅ Be respectful and supportive<br>
 ✅ Participate and engage in discussions</p>
 </div><div class="column" style="width:50%;">
-<h3 id="communication-etiquette">💬 Communication Etiquette</h3>
+<p><br></p>
+<h4 id="communication-etiquette">💬 Communication Etiquette</h4>
 <p>✅ Use chat courteously<br>
 ✅ Raise your hand if you want to speak</p>
-<h3 id="not-allowed">🚫 Not Allowed</h3>
+<h4 id="not-allowed">🚫 Not Allowed</h4>
 <p>❌ Harassment or offensive comments<br>
 ❌ Disruptive behavior</p>
 </div></div>
 <p>⭐ Let’s have a fun, engaging, and meaningful learning session!</p>
 </section>
-<section id="the-r-user-group-of-nueva-vizcaya-state-university-rnvsu" class="slide level2">
+<section id="the-r-user-group-of-nueva-vizcaya-state-university-rnvsu" class="slide level2 smaller">
 <h2>The R User Group of Nueva Vizcaya State University (RNVSU)</h2>
-<p>🏛️ Supported by<br>
-- R Consortium - Nueva Vizcaya State University</p>
-<p>🔭 <strong>Our Vision</strong> A hub for collaboration, statistics, data science, reproducible research, and open science for innovation and societal impact.</p>
-<p>🤝 <strong>Future Goals</strong></p>
+<p><br></p>
+<p>🏛 <strong>Sponsors</strong></p>
 <ul>
-<li>Build collaborations with researchers and communities<br>
-</li>
-<li>Showcase R skills and data science projects - Solve real-world problems using data-driven approaches</li>
+<li><a href="https://r-consortium.org">R Consortium</a></li>
+<li><a href="https://www.nvsu.edu.ph">Nueva Vizcaya State University</a></li>
 </ul>
+<p>🔭 <strong>Our Vision:</strong> RNVSU as a thriving hub for global collaboration, data science, and open science, driving innovation and sustainable development in the province.</p>
 <p>⭐ Join us as we learn, collaborate, and create impact!</p>
 </section>
-<section id="meet-the-rnvsu-organizers" class="slide level2">
+<section id="meet-the-rnvsu-organizers" class="slide level2 smaller">
 <h2>Meet the RNVSU Organizers</h2>
+<p><img data-src="images/orville.png" class="absolute" style="top: 80px; left: 0px; height: 60%; "></p>
+<p><img data-src="images/richard.png" class="absolute" style="top: 80px; left: 210px; height: 60%; "></p>
+<p><img data-src="images/mart.png" class="absolute" style="top: 80px; left: 420px; height: 60%; "></p>
+<p><img data-src="images/romnick.png" class="absolute" style="top: 80px; left: 630px; height: 60%; "></p>
+<p><img data-src="images/mer.png" class="absolute" style="top: 80px; left: 840px; height: 60%; "></p>
+<p><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br></p>
+<div style="font-size: 70%;">
+<p>Orville D. Hombrebueno <span style="padding-left: 1em;">Richard J. Taclay</span> <span style="padding-left: 2.5em;">Mart Jasper G. Antonio</span> <span style="padding-left: 1.8em;">Romnick L. Pascua</span> <span style="padding-left: 1.8em;">Mer Joseph Q. Caranza</span></p>
+</div>
+<p><img data-src="images/cte.jpg" class="absolute" style="left: 15px; bottom: 30px; height: 12%; "></p>
+<p><img data-src="images/cas.png" class="absolute" style="left: 350px; bottom: 30px; height: 12%; "></p>
+<p><img data-src="images/cferm.png" class="absolute" style="left: 774px; bottom: 30px; height: 12%; "></p>
+</section>
+<section id="event-organizers" class="slide level2">
+<h2>Event Organizers</h2>
+<p><img data-src="images/mms.jpeg" class="absolute" style="left: 150px; bottom: 180px; height: 50%; "></p>
+<p><img data-src="images/mc.jpg" class="absolute" style="left: 600px; bottom: 180px; height: 50%; "></p>
+</section>
+<section id="future-meetup-events" class="slide level2">
+<h2>Future Meetup Events</h2>
+</section>
+<section id="introduction-to-the-speaker" class="slide level2">
+<h2>Introduction to the Speaker</h2>
 
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="images/logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
-
+<p><a href="https://www.meetup.com/r-nvsu/"><i class="fa-brands fa-meetup" aria-label="meetup"></i></a> <a href="https://github.com/RNVSU"><i class="fa-brands fa-github" aria-label="github"></i></a> R User Group of Nueva Vizcaya State University</p>
 </div>
 </div></div>
 

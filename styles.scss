@@ -1,16 +1,21 @@
 /*-- scss:defaults --*/
-$presentation-title-slide-text-align: center;
+$presentation-title-slide-text-align: left;
 
 .reveal .slide-logo {
-  height: 80px !important;
-  width: 270px !important;
+  height: 100px !important;
+  width: 350px !important;
   max-width: unset !important;
   max-height: unset !important;
 }
 
 /* styles.css */
 .title {
-  font-size: 90px !important; /* Adjust the size as needed */
+  font-size: 30px !important; /* Adjust the size as needed */
+}
+
+/* styles.css */
+.subtitle {
+    font-size: 90px !important; /* Adjust the size as needed */
 }
 
 .quarto-title-author-name {
@@ -20,3 +25,16 @@ $presentation-title-slide-text-align: center;
 .date {
   font-size: 40px;
 }
+
+.reveal .footer {
+  font-size: 50px;
+}
+
+/*-- scss:rules --*/
+.reveal .footer {
+  font-size: .7em !important; // Increase size as needed
+  color: #000;                // Optional: adjust color
+}
+
+
+

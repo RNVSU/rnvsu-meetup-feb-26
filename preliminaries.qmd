@@ -1,57 +1,109 @@
 ---
-title: "Using Git and GitHub<br>in RStudio"
-author: "Federica Gazzelloni"
+title: "[RNVSU](https://www.meetup.com/r-nvsu/) and [R-Ladies Rome](https://www.meetup.com/rladies-rome/) presents:"
+subtitle: "Using [Git](https://git-scm.com) and [GitHub](https://github.com)<br>in [RStudio](https://posit.co/download/rstudio-desktop/)"
+author: "[Federica Gazzelloni](https://federicagazzelloni.com)"
 date: February 27, 2026
 format:
   revealjs:
     theme: [default, styles.scss]
     logo: images/logo.png
+    footer: "[{{< fa brands meetup >}}](https://www.meetup.com/r-nvsu/) [{{< fa brands github >}}](https://github.com/RNVSU) R User Group of Nueva Vizcaya State University"
+title-slide-attributes:
+  data-background-image: "/images/bg.png"
+  data-background-size: 40%
+  data-background-position: 600px 370px
 ---
+
 ## 📢 Zoom Meetup Reminders {.smaller}
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="50%"}
-### 🎥 Recording Notice  
+<br>
+
+#### 🎥 Recording Notice
+
 This meetup will be recorded for documentation and learning purposes.
 
-### 🤝 Inclusive Learning Space  
-✅ Be respectful and supportive  
-✅ Participate and engage in discussions  
+#### 🤝 Inclusive Learning Space
+
+✅ Be respectful and supportive\
+✅ Participate and engage in discussions
 :::
 
 ::: {.column width="50%"}
-### 💬 Communication Etiquette  
-✅ Use chat courteously  
-✅ Raise your hand if you want to speak  
+<br>
 
-### 🚫 Not Allowed
-❌ Harassment or offensive comments  
-❌ Disruptive behavior  
+#### 💬 Communication Etiquette
+
+✅ Use chat courteously\
+✅ Raise your hand if you want to speak
+
+#### 🚫 Not Allowed
+
+❌ Harassment or offensive comments\
+❌ Disruptive behavior
 :::
-::::
+:::::
 
 ⭐ Let’s have a fun, engaging, and meaningful learning session!
 
-## The R User Group of Nueva Vizcaya State University (RNVSU)
+## The R User Group of Nueva Vizcaya State University (RNVSU) {.smaller}
 
-🏛️ Supported by  
-- R Consortium 
-- Nueva Vizcaya State University
+<br>
 
-🔭 **Our Vision**
-A hub for collaboration, statistics, data science, reproducible research, and open science for innovation and societal impact.
+🏛 **Sponsors**
 
-🤝 **Future Goals**
+-   [R Consortium](https://r-consortium.org)
+-   [Nueva Vizcaya State University](https://www.nvsu.edu.ph)
 
-- Build collaborations with researchers and communities  
-- Showcase R skills and data science projects  - Solve real-world problems using data-driven approaches  
+🔭 **Our Vision:** RNVSU as a thriving hub for global collaboration, data science, and open science, driving innovation and sustainable development in the province.
 
 ⭐ Join us as we learn, collaborate, and create impact!
 
-## Meet the RNVSU Organizers
+## Meet the RNVSU Organizers {.smaller}
 
+![](images/orville.png){.absolute top="80" left="0" height="60%"}
 
+![](images/richard.png){.absolute top="80" left="210" height="60%"}
+
+![](images/mart.png){.absolute top="80" left="420" height="60%"}
+
+![](images/romnick.png){.absolute top="80" left="630" height="60%"}
+
+![](images/mer.png){.absolute top="80" left="840" height="60%"}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+::: {style="font-size: 70%;"}
+Orville D. Hombrebueno [Richard J. Taclay]{style="padding-left: 1em;"} [Mart Jasper G. Antonio]{style="padding-left: 2.5em;"} [Romnick L. Pascua]{style="padding-left: 1.8em;"} [Mer Joseph Q. Caranza]{style="padding-left: 1.8em;"}
+:::
+
+![](images/cte.jpg){.absolute bottom="30" left="15" height="12%"}
+
+![](images/cas.png){.absolute bottom="30" left="350" height="12%"}
+
+![](images/cferm.png){.absolute bottom="30" left="774" height="12%"}
+
+## Event Organizers
+
+![](images/mms.jpeg){.absolute bottom="180" left="150" height="50%"}
+
+![](images/mc.jpg){.absolute bottom="180" left="600" height="50%"}
+
+## Future Meetup Events
+
+## Introduction to the Speaker
 
 
 

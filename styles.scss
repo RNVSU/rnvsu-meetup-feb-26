@@ -1,18 +1,22 @@
 /*-- scss:defaults --*/
-$presentation-title-slide-text-align: left;
-
-/*-- scss:rules --*/
-.reveal section.title-slide .title-slide-content {
-  transform: translateX(30%);
-}
+$presentation-title-slide-text-align: center;
 
 .reveal .slide-logo {
-  height: 130px !important;
-  width: 450px !important;
+  height: 80px !important;
+  width: 270px !important;
   max-width: unset !important;
   max-height: unset !important;
 }
 
+/* styles.css */
+.title {
+  font-size: 90px !important; /* Adjust the size as needed */
+}
+
 .quarto-title-author-name {
-  font-size: 48px !important;
+  font-size: 70px;
+}
+
+.date {
+  font-size: 40px;
 }

@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="presentation_files/libs/clipboard/clipboard.min.js"></script>
-<script src="presentation_files/libs/quarto-html/tabby.min.js"></script>
-<script src="presentation_files/libs/quarto-html/popper.min.js"></script>
-<script src="presentation_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="presentation_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="presentation_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="presentation_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="preliminaries_files/libs/clipboard/clipboard.min.js"></script>
+<script src="preliminaries_files/libs/quarto-html/tabby.min.js"></script>
+<script src="preliminaries_files/libs/quarto-html/popper.min.js"></script>
+<script src="preliminaries_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="preliminaries_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="preliminaries_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="preliminaries_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
-  <meta name="author" content="Zoom 27 Feb 2026 Fri 6PM (UTC +8)">
+  <meta name="author" content="Federica Gazzelloni">
+  <meta name="dcterms.date" content="2026-02-27">
   <title>Using Git and GitHub in RStudio</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="preliminaries_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="preliminaries_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -29,11 +30,11 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/theme/quarto-7303e301512f8cc88e976b9d242c3732.css">
-  <link href="presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="presentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="presentation_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="preliminaries_files/libs/revealjs/dist/theme/quarto-39b3854f54069f73298baf6fc16d2f5e.css">
+  <link href="preliminaries_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="preliminaries_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="preliminaries_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="preliminaries_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -126,21 +127,53 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="images/banganhill-fgazzelloni.png" class="quarto-title-block center">
+<section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Using Git and GitHub<br>in RStudio</h1>
-  <p class="subtitle"><strong>Federica Gazzelloni</strong></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-<strong>Zoom<br>27 Feb 2026 Fri 6PM (UTC +8)</strong> 
+Federica Gazzelloni 
 </div>
 </div>
 </div>
 
+  <p class="date">2026-02-27</p>
 </section>
-<section class="slide level2">
-
+<section id="zoom-meetup-reminders" class="slide level2 smaller">
+<h2>📢 Zoom Meetup Reminders</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="recording-notice">🎥 Recording Notice</h3>
+<p>This meetup will be recorded for documentation and learning purposes.</p>
+<h3 id="inclusive-learning-space">🤝 Inclusive Learning Space</h3>
+<p>✅ Be respectful and supportive<br>
+✅ Participate and engage in discussions</p>
+</div><div class="column" style="width:50%;">
+<h3 id="communication-etiquette">💬 Communication Etiquette</h3>
+<p>✅ Use chat courteously<br>
+✅ Raise your hand if you want to speak</p>
+<h3 id="not-allowed">🚫 Not Allowed</h3>
+<p>❌ Harassment or offensive comments<br>
+❌ Disruptive behavior</p>
+</div></div>
+<p>⭐ Let’s have a fun, engaging, and meaningful learning session!</p>
+</section>
+<section id="the-r-user-group-of-nueva-vizcaya-state-university-rnvsu" class="slide level2">
+<h2>The R User Group of Nueva Vizcaya State University (RNVSU)</h2>
+<p>🏛️ Supported by<br>
+- R Consortium - Nueva Vizcaya State University</p>
+<p>🔭 <strong>Our Vision</strong> A hub for collaboration, statistics, data science, reproducible research, and open science for innovation and societal impact.</p>
+<p>🤝 <strong>Future Goals</strong></p>
+<ul>
+<li>Build collaborations with researchers and communities<br>
+</li>
+<li>Showcase R skills and data science projects - Solve real-world problems using data-driven approaches</li>
+</ul>
+<p>⭐ Join us as we learn, collaborate, and create impact!</p>
+</section>
+<section id="meet-the-rnvsu-organizers" class="slide level2">
+<h2>Meet the RNVSU Organizers</h2>
 
 </section>
     </div>
@@ -152,19 +185,19 @@
 </div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="presentation_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="preliminaries_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="preliminaries_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="preliminaries_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="preliminaries_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="preliminaries_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="preliminaries_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="presentation_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="preliminaries_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="preliminaries_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="preliminaries_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="preliminaries_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>

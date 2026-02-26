@@ -7,7 +7,11 @@ format:
   revealjs:
     theme: [default, styles.scss]
     logo: images/logo.png
-    footer: "[{{< fa brands meetup >}}](https://www.meetup.com/r-nvsu/) [{{< fa brands github >}}](https://github.com/RNVSU) R User Group of Nueva Vizcaya State University"
+    footer: "<span class='footer-icons'>
+<a href='https://www.meetup.com/r-nvsu/' class='meetup-icon'>{{< fa brands meetup >}}</a>
+<a href='https://github.com/RNVSU' class='github-icon'>{{< fa brands github >}}</a>
+R User Group of Nueva Vizcaya State University
+</span>"
 title-slide-attributes:
   data-background-image: "/images/bg.png"
   data-background-size: 40%
@@ -101,9 +105,21 @@ Orville D. Hombrebueno [Richard J. Taclay]{style="padding-left: 1em;"} [Mart Jas
 
 ![](images/mc.jpg){.absolute bottom="180" left="600" height="50%"}
 
-## Future Meetup Events
+## [{{< fa brands meetup >}}](https://www.meetup.com/r-nvsu/) Future Meetup Events {.meetup-heading}
+
+#### March Meetup
+
+- Talk 1: Wrangling data with tidyverse
+- Talk 2: Tidyplots for easy data visualization
+- Talk 3: Tidymodels
+
+#### April Meetup
+
+- Introduction to Quarto
 
 ## Introduction to the Speaker
+
+
 
 
 

@@ -36,5 +36,36 @@ $presentation-title-slide-text-align: left;
   color: #000;                // Optional: adjust color
 }
 
+.reveal .meetup-heading a {
+  color: #ED1C40 !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+}
 
+.reveal .meetup-heading a:hover {
+  color: #ED1C40 !important;
+}
 
+.reveal .footer-icons a {
+  text-decoration: none !important;
+}
+
+/* Meetup red */
+.reveal .footer-icons .meetup-icon {
+  color: #ED1C40 !important;
+}
+
+/* GitHub black */
+.reveal .footer-icons .github-icon {
+  color: #000000 !important;
+}
+
+/* Prevent hover color change */
+.reveal .footer-icons .meetup-icon {
+  color: #ED1C40 !important;
+}
+
+/* Prevent hover color change */
+.reveal .footer-icons .github-icon {
+  color: #000000 !important;
+}

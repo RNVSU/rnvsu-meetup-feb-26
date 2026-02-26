@@ -69,3 +69,13 @@ $presentation-title-slide-text-align: left;
 .reveal .footer-icons .github-icon {
   color: #000000 !important;
 }
+
+.reveal .normal-link a {
+  color: var(--r-link-color) !important;
+  text-decoration: underline;
+}
+
+.reveal .normal-link a:hover {
+  color: var(--r-link-color) !important;  // prevent hover color change
+  text-decoration: underline;
+}

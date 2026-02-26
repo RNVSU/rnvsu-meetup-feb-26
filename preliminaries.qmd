@@ -109,18 +109,19 @@ Orville D. Hombrebueno [Richard J. Taclay]{style="padding-left: 1em;"} [Mart Jas
 
 #### March Meetup
 
-- Talk 1: Wrangling data with tidyverse
-- Talk 2: Tidyplots for easy data visualization
+- Talk 1: Data wrangling with tidyverse
+- <span class="normal-link">
+[Talk 2](https://www.meetup.com/r-nvsu/events/313337627/?eventOrigin=group_upcoming_events)
+</span>: Tidyplots for easy data visualization
 - Talk 3: Tidymodels
 
 #### April Meetup
 
 - Introduction to Quarto
 
-## Introduction to the Speaker
+## 🎙️Introduction to the Speaker
 
-
-
-
+<iframe data-external="1" src="https://federicagazzelloni.com/about.html" width="1200" height="500" style="border: 1px solid #ccc" frameborder="0">
+</iframe>
 
 

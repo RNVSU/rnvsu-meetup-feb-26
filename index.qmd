@@ -113,8 +113,8 @@ Orville D. Hombrebueno [Richard J. Taclay]{style="padding-left: 1em;"} [Mart Jas
 
 - Talk 1: Data wrangling with [`{tidyverse}`](https://tidyverse.org)
 - <span class="normal-link">
-[Talk 2](https://www.meetup.com/r-nvsu/events/313337627/?eventOrigin=group_upcoming_events)
-</span>: [`{tidyplots}`](https://tidyplots.org) for easy data visualization
+[Talk 2](https://www.meetup.com/r-nvsu/events/313337627/?eventOrigin=group_upcoming_events):
+</span> [`{tidyplots}`](https://tidyplots.org) for easy data visualization
 - Talk 3: [`{tidymodels}`](https://www.tidymodels.org)
 
 #### April Meetup Event

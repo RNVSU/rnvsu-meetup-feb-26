@@ -50,23 +50,23 @@ $presentation-title-slide-text-align: left;
   text-decoration: none !important;
 }
 
-/* Meetup red */
-.reveal .footer-icons .meetup-icon {
-  color: #ED1C40 !important;
-}
-
 /* GitHub black */
 .reveal .footer-icons .github-icon {
   color: #000000 !important;
 }
 
 /* Prevent hover color change */
-.reveal .footer-icons .meetup-icon {
-  color: #ED1C40 !important;
+.reveal .footer-icons .github-icon {
+  color: #000000 !important;
+}
+
+/* Slide black */
+.reveal .footer-icons .slide-icon {
+  color: #000000 !important;
 }
 
 /* Prevent hover color change */
-.reveal .footer-icons .github-icon {
+.reveal .footer-icons .slide-icon {
   color: #000000 !important;
 }
 

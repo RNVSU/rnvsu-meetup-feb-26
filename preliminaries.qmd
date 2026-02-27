@@ -8,9 +8,8 @@ format:
     theme: [default, styles.scss]
     logo: images/logo.png
     footer: "<span class='footer-icons'>
-<a href='https://www.meetup.com/r-nvsu/' class='meetup-icon'>{{< fa brands meetup >}}</a>
-<a href='https://github.com/RNVSU' class='github-icon'>{{< fa brands github >}}</a>
-R User Group of Nueva Vizcaya State University
+<a href='https://github.com/RNVSU' class='github-icon'>{{< fa brands github >}}</a> |
+R User Group of Nueva Vizcaya State University | <a href='https://github.com/RNVSU' class='slide-icon'>{{< iconify streamline-freehand:performance-presentation-graph >}}</a>
 </span>"
 title-slide-attributes:
   data-background-image: "/images/bg.png"
@@ -51,7 +50,7 @@ This meetup will be recorded for documentation and learning purposes.
 
 ⭐ Let’s have a fun, engaging, and meaningful learning session!
 
-## The R User Group of Nueva Vizcaya State University (RNVSU) {.smaller}
+## The R User Group of Nueva Vizcaya State University ([RNVSU](https://www.meetup.com/r-nvsu/)) {.smaller}
 
 <br>
 
@@ -99,7 +98,7 @@ Orville D. Hombrebueno [Richard J. Taclay]{style="padding-left: 1em;"} [Mart Jas
 
 ![](images/cferm.png){.absolute bottom="30" left="774" height="12%"}
 
-## Event Organizers
+## {{< fa handshake regular >}} Event Organizers
 
 ![](images/mms.jpeg){.absolute bottom="180" left="150" height="50%"}
 
@@ -107,21 +106,21 @@ Orville D. Hombrebueno [Richard J. Taclay]{style="padding-left: 1em;"} [Mart Jas
 
 ## [{{< fa brands meetup >}}](https://www.meetup.com/r-nvsu/) Future Meetup Events {.meetup-heading}
 
+<br>
+
 #### March Meetup
 
-- Talk 1: Data wrangling with tidyverse
+- Talk 1: Data wrangling with [`{tidyverse}`](https://tidyverse.org)
 - <span class="normal-link">
 [Talk 2](https://www.meetup.com/r-nvsu/events/313337627/?eventOrigin=group_upcoming_events)
-</span>: Tidyplots for easy data visualization
-- Talk 3: Tidymodels
+</span>: [`{tidyplots}`](https://tidyplots.org) for easy data visualization
+- Talk 3: [`{tidymodels}`](https://www.tidymodels.org)
 
 #### April Meetup
 
-- Introduction to Quarto
+- Introduction to <span class="normal-link"> [Quarto](https://quarto.org) </span>
 
 ## 🎙️Introduction to the Speaker
 
 <iframe data-external="1" src="https://federicagazzelloni.com/about.html" width="1200" height="500" style="border: 1px solid #ccc" frameborder="0">
 </iframe>
-
-

@@ -13,7 +13,7 @@ R User Group of Nueva Vizcaya State University | <a href='https://github.com/RNV
 </span>"
     embed-resources: true
 title-slide-attributes:
-  data-background-image: "/images/bg.png"
+  data-background-image: images/bg.png
   data-background-size: 40%
   data-background-position: 600px 370px
 ---

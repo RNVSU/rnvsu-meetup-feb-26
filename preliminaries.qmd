@@ -1,6 +1,4 @@
 ---
-project:
-  type: website
 title: "[RNVSU](https://www.meetup.com/r-nvsu/) and [R-Ladies Rome](https://www.meetup.com/rladies-rome/) presents:"
 subtitle: "Using [Git](https://git-scm.com) and [GitHub](https://github.com)<br>in [RStudio](https://posit.co/download/rstudio-desktop/)"
 author: "[Federica Gazzelloni](https://federicagazzelloni.com)"

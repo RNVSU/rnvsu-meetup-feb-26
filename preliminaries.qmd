@@ -18,7 +18,7 @@ title-slide-attributes:
   data-background-position: 600px 370px
 ---
 
-## 📢 Zoom Meetup Reminders {.smaller}
+## 📢 Zoom Meetup Event Reminders {.smaller}
 
 ::::: columns
 ::: {.column width="50%"}
@@ -109,7 +109,7 @@ Orville D. Hombrebueno [Richard J. Taclay]{style="padding-left: 1em;"} [Mart Jas
 
 <br>
 
-#### March Meetup
+#### March Meetup Events
 
 - Talk 1: Data wrangling with [`{tidyverse}`](https://tidyverse.org)
 - <span class="normal-link">
@@ -117,7 +117,7 @@ Orville D. Hombrebueno [Richard J. Taclay]{style="padding-left: 1em;"} [Mart Jas
 </span>: [`{tidyplots}`](https://tidyplots.org) for easy data visualization
 - Talk 3: [`{tidymodels}`](https://www.tidymodels.org)
 
-#### April Meetup
+#### April Meetup Event
 
 - Introduction to <span class="normal-link"> [Quarto](https://quarto.org) </span>
 

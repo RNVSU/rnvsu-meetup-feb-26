@@ -9,7 +9,7 @@ format:
     logo: images/logo.png
     footer: "<span class='footer-icons'>
 <a href='https://github.com/RNVSU' class='github-icon'>{{< fa brands github >}}</a> |
-R User Group of Nueva Vizcaya State University | <a href='https://github.com/RNVSU' class='slide-icon'>{{< iconify streamline-freehand:performance-presentation-graph >}}</a>
+[https://rnvsu.github.io/rnvsu-meetup-feb-26/](https://rnvsu.github.io/rnvsu-meetup-feb-26/) | <a href='https://github.com/RNVSU' class='slide-icon'>{{< iconify streamline-freehand:performance-presentation-graph >}}</a>
 </span>"
     embed-resources: true
 title-slide-attributes:
